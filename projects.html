@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects — Tony Renold</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+    <!-- Add to your HTML head -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Tony Renold</a>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Projects</h1>
+                <p class="page-subtitle">A collection of machine learning solutions driving real-world impact</p>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="container">
+                <div class="projects-grid">
+                    <div id="cybersentinel" class="project-card" data-gradient="emerald">
+                        <div class="project-number">01</div>
+                        <h3 class="project-title">CyberSentinel AGI</h3>
+                        <p class="project-description">Autonomous AI agents for real-time threat detection, response automation, and digital forensics. Engineered advanced machine learning systems with anomaly detection algorithms and behavioral analysis to identify sophisticated cyber threats.</p>
+                        <div class="project-details">
+                            <h4 class="project-details-title">The Problem</h4>
+                            <p>Organizations face increasingly sophisticated cyber threats that traditional security systems cannot detect. Manual monitoring is inefficient, and delayed threat response leads to significant security breaches and data loss.</p>
+                            <h4 class="project-details-title">The Approach</h4>
+                            <p>Engineered autonomous AI agents leveraging advanced machine learning for real-time cybersecurity threat detection. Built multi-agent system architecture for distributed threat detection. Implemented anomaly detection using Isolation Forest and One-Class SVM algorithms. Developed real-time alert generation and automated incident response workflows with digital forensics analysis including log correlation and timeline reconstruction.</p>
+                            <h4 class="project-details-title">Results</h4>
+                            <p>Autonomous threat detection system capable of identifying sophisticated cyber threats in real-time. Multi-agent architecture enables distributed and scalable security monitoring. Automated incident response reduces manual intervention time and accelerates threat mitigation.</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">AI Agents</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">Real-time Processing</span>
+                            <span class="tag">Anomaly Detection</span>
+                            <span class="tag">Digital Forensics</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">Real-time</span>
+                                <span class="metric-label">Threat Detection</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">Autonomous</span>
+                                <span class="metric-label">AI Agents</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">Multi-Agent</span>
+                                <span class="metric-label">Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="oils-fuels" class="project-card" data-gradient="blue">
+                        <div class="project-number">02</div>
+                        <h3 class="project-title">Oils & Fuels Analysis and Prediction</h3>
+                        <p class="project-description">Comprehensive time-series forecasting and anomaly detection system for oil and fuel market analysis. Developed predictive models using ARIMA and ensemble methods to deliver actionable market insights.</p>
+                        <div class="project-details">
+                            <h4 class="project-details-title">The Problem</h4>
+                            <p>Oil and fuel markets require accurate forecasting for strategic decision-making, but traditional analysis methods struggle with volatility and complex market patterns. Organizations need reliable predictions and anomaly detection to optimize operations and mitigate risks.</p>
+                            <h4 class="project-details-title">The Approach</h4>
+                            <p>Developed comprehensive time-series forecasting system using ARIMA and exponential smoothing techniques. Implemented anomaly detection using Random Forest and Isolation Forest algorithms. Performed extensive data preprocessing and feature engineering on 10+ years of historical market data. Conducted thorough model evaluation with RMSE, MAE, and accuracy metrics to ensure reliable predictions.</p>
+                            <h4 class="project-details-title">Results</h4>
+                            <p>Advanced forecasting system providing actionable market insights for oil and fuel trading. Anomaly detection capabilities identify unusual market patterns and potential risks. Comprehensive analysis of 10+ years of historical data enables data-driven decision making.</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">ARIMA</span>
+                            <span class="tag">Random Forest</span>
+                            <span class="tag">Time-Series</span>
+                            <span class="tag">Forecasting</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">NumPy</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">10+</span>
+                                <span class="metric-label">Years Data</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">ARIMA</span>
+                                <span class="metric-label">Forecasting</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">Real-time</span>
+                                <span class="metric-label">Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="patient-dashboard" class="project-card" data-gradient="rose">
+                        <div class="project-number">03</div>
+                        <h3 class="project-title">Patient Details Dashboard – Power BI</h3>
+                        <p class="project-description">Interactive healthcare dashboard providing real-time insights into patient demographics, admission trends, and key performance indicators for data-driven clinical decisions.</p>
+                        <div class="project-details">
+                            <h4 class="project-details-title">The Problem</h4>
+                            <p>Healthcare organizations struggle to extract actionable insights from large volumes of patient data. Traditional reporting methods are time-consuming and lack interactivity, making it difficult for clinical teams to make data-driven decisions quickly.</p>
+                            <h4 class="project-details-title">The Approach</h4>
+                            <p>Designed comprehensive ETL pipelines using Power Query for efficient data cleaning and transformation. Developed advanced DAX calculations for KPI metrics and trend analysis. Created interactive filters and drill-down capabilities for detailed insights. Optimized performance for large-scale healthcare datasets to ensure fast load times and responsive user experience.</p>
+                            <h4 class="project-details-title">Results</h4>
+                            <p>Interactive dashboard enabling real-time monitoring of patient demographics and admission trends. Data-driven insights support clinical decision-making and operational efficiency. Optimized performance handles large-scale healthcare datasets effectively.</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Power Query</span>
+                            <span class="tag">DAX</span>
+                            <span class="tag">Data Modeling</span>
+                            <span class="tag">ETL</span>
+                            <span class="tag">Healthcare Analytics</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">Real-time</span>
+                                <span class="metric-label">Insights</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">Interactive</span>
+                                <span class="metric-label">Dashboard</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">Data-Driven</span>
+                                <span class="metric-label">Decisions</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="signlang" class="project-card" data-gradient="purple">
+                        <div class="project-number">04</div>
+                        <h3 class="project-title">SignLang AI</h3>
+                        <p class="project-description">Real-time sign language translation system with 92% accuracy, making communication accessible with 2.3K GitHub stars and growing community adoption.</p>
+                        <div class="project-details">
+                            <h4 class="project-details-title">The Problem</h4>
+                            <p>Communication barriers between sign language users and non-signers limited accessibility. Existing solutions were slow, inaccurate, or required expensive hardware.</p>
+                            <h4 class="project-details-title">The Approach</h4>
+                            <p>Built real-time sign language recognition using MediaPipe and custom CNN models. Developed sequence-to-sequence translation with transformer architecture. Created open-source framework with webcam-based input.</p>
+                            <h4 class="project-details-title">Results</h4>
+                            <p>92% accuracy across 50+ signs, 2.3K GitHub stars, real-time processing at 30 FPS, deployed as open-source tool with growing community of 500+ contributors.</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Accessibility</span>
+                            <span class="tag">MediaPipe</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">92%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">2.3K</span>
+                                <span class="metric-label">GitHub Stars</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">30 FPS</span>
+                                <span class="metric-label">Real-time</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="flora-chatbot" class="project-card" data-gradient="orange">
+                        <div class="project-number">05</div>
+                        <h3 class="project-title">Flora Chatbot – AI-Powered Conversational Assistant</h3>
+                        <p class="project-description">End-to-end NLP-based intelligent chatbot with context-aware responses and generative AI integration for natural language understanding and generation.</p>
+                        <div class="project-details">
+                            <h4 class="project-details-title">The Problem</h4>
+                            <p>Organizations need intelligent conversational interfaces that can understand natural language and provide contextually relevant responses. Traditional chatbots lack the sophistication required for meaningful human-computer interaction and struggle with complex queries.</p>
+                            <h4 class="project-details-title">The Approach</h4>
+                            <p>Built end-to-end NLP pipeline with tokenization, lemmatization, and intent classification for natural language understanding. Integrated Gemini API for enhanced response generation with generative AI capabilities. Developed web interface using Flask backend and JavaScript frontend. Deployed on GitHub with continuous integration for seamless updates and version control.</p>
+                            <h4 class="project-details-title">Results</h4>
+                            <p>Intelligent conversational assistant capable of understanding and responding to complex user queries. Context-aware responses provide meaningful interactions. Seamlessly deployed solution with continuous integration for easy maintenance and updates.</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">Gemini API</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">GitHub</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">AI-Powered</span>
+                                <span class="metric-label">Conversational</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">Context-Aware</span>
+                                <span class="metric-label">Responses</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">NLP</span>
+                                <span class="metric-label">Pipeline</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Tony Renold. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

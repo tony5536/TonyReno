@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Tony Renold</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+    <!-- Add to your HTML head -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Tony Renold</a>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">About</h1>
+            </div>
+        </section>
+
+        <section class="about-story">
+            <div class="container">
+                <div class="story-content">
+                    <div class="story-text">
+                        <p class="story-intro">I'm a Data Scientist and Machine Learning Engineer passionate about building intelligent systems that solve real-world problems. With expertise spanning fraud detection, healthcare AI, computer vision, and predictive analytics, I transform complex data into actionable insights.</p>
+                        
+                        <p>My journey began with a fascination for patterns—how seemingly random data could reveal profound truths. This curiosity led me to specialize in machine learning, where I've developed systems that detect financial fraud with 99.2% accuracy, predict healthcare outcomes with 94% precision, and enable gesture-based robot control with 43% efficiency gains.</p>
+                        
+                        <p>What drives me is the intersection of technical excellence and human impact. Every model I build, every algorithm I optimize, serves a purpose beyond metrics—it protects financial systems, enhances campus security, improves patient outcomes, and makes technology more accessible through innovations like sign language translation.</p>
+                        
+                        <p>I believe in open-source collaboration, having contributed to projects with over 2.3K GitHub stars, and in continuous learning, constantly exploring the latest advances in deep learning, computer vision, and AI ethics. My work spans multiple domains, from fintech to healthcare to robotics, always with a focus on creating solutions that are both powerful and responsible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="expertise">
+            <div class="container">
+                <h2 class="section-title">Expertise</h2>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <h3 class="expertise-title">Machine Learning</h3>
+                        <p class="expertise-description">Deep learning, neural networks, ensemble methods, model optimization, hyperparameter tuning</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3 class="expertise-title">Computer Vision</h3>
+                        <p class="expertise-description">CNN architectures, object detection, image classification, video analysis, real-time processing</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3 class="expertise-title">Natural Language Processing</h3>
+                        <p class="expertise-description">Transformers, sentiment analysis, text classification, language models, sequence-to-sequence</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3 class="expertise-title">Predictive Analytics</h3>
+                        <p class="expertise-description">Time series forecasting, regression analysis, anomaly detection, risk modeling, maintenance prediction</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3 class="expertise-title">MLOps & Deployment</h3>
+                        <p class="expertise-description">Model serving, containerization, CI/CD pipelines, monitoring, A/B testing, production systems</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3 class="expertise-title">Data Engineering</h3>
+                        <p class="expertise-description">ETL pipelines, data warehousing, feature engineering, data quality, scalable architectures</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-stack">
+            <div class="container">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="tech-list">
+                    <span class="tech-item">Python</span>
+                    <span class="tech-item">TensorFlow</span>
+                    <span class="tech-item">PyTorch</span>
+                    <span class="tech-item">Scikit-learn</span>
+                    <span class="tech-item">OpenCV</span>
+                    <span class="tech-item">Pandas</span>
+                    <span class="tech-item">NumPy</span>
+                    <span class="tech-item">SQL</span>
+                    <span class="tech-item">Docker</span>
+                    <span class="tech-item">Kubernetes</span>
+                    <span class="tech-item">AWS</span>
+                    <span class="tech-item">GCP</span>
+                    <span class="tech-item">MLflow</span>
+                    <span class="tech-item">FastAPI</span>
+                    <span class="tech-item">PostgreSQL</span>
+                    <span class="tech-item">MongoDB</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Tony Renold. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

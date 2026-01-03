@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Tony Renold</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add to your HTML head -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotepopp\sk:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Tony Renold</a>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Contact</h1>
+                <p class="page-subtitle">Let's discuss how machine learning can solve your challenges</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2 class="contact-heading">Get in Touch</h2>
+                        <p class="contact-description">I'm always open to discussing new projects, creative ideas, or opportunities to collaborate. Whether you're looking for ML expertise, consulting, or just want to connect, feel free to reach out.</p>
+                        
+                        <div class="contact-methods">
+                            <a href="/cdn-cgi/l/email-protection#d3a7bcbdaaa1b6bdbcbfb7e3e6e293b4beb2babffdb0bcbe" class="contact-method">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value"><span class="__cf_email__" data-cfemail="e79388899e958289888b83d7d2d6a7808a868e8bc984888a">tonyrenold051@gmail.com</span></span>
+                            </a>
+                            <a href="tel:+1234567890" class="contact-method">
+                                <span class="contact-label">Mobile</span>
+                                <span class="contact-value">+91 8610074959</span>
+                            </a>
+                            <a href="https://github.com" target="_blank" rel="noopener" class="contact-method">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">https://github.com/tony5536</span>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-method">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">https://www.linkedin.com/in/tony-renold-3549a9234/</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-input form-textarea" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Tony Renold. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/tony5536" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/tony-renold-3549a9234/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
